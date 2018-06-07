@@ -18,10 +18,10 @@ afterEach(()=>{
     wrapped.unmount();
 });
 
-it('has a textarea and button', ()=>{
+it('has a textarea and 2 buttons', ()=>{
 
     expect(wrapped.find('textarea').length).toEqual(1);
-    expect(wrapped.find('button').length).toEqual(1);
+    expect(wrapped.find('button').length).toEqual(2);
 
 });
 
